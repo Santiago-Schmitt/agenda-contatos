@@ -1,0 +1,108 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #5b7ec0;
+  color: #333;
+}
+ 
+h1 { 
+  color: #ffffff; 
+  margin-bottom: 24px;
+}
+
+h2 {
+  color: #3b6cd6;
+  font-size: 1.25rem;
+  margin-top: 0;
+}
+ 
+section {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+ 
+input, button {
+  padding: 10px 12px;
+  margin: 4px 6px 4px 0;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input {
+  border: 1px solid #cbd5e1;
+  background-color: #fff;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #2563EB;
+}
+ 
+button {
+  background-color: #2563EB;
+  color: white;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+#btn-cancelar, #btn-limpar-filtro {
+  background-color: #64748b;
+}
+
+#btn-cancelar:hover, #btn-limpar-filtro:hover {
+  background-color: #475569;
+}
+ 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+ 
+th, td {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 12px;
+  text-align: left;
+}
+ 
+th { 
+  background-color: #f1f5f9; 
+  color: #475569;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #f8fafc;
+}
+
+.btn-editar {
+  background-color: #e2e8f0;
+  color: #1e293b;
+  padding: 6px 10px;
+}
+
+.btn-editar:hover {
+  background-color: #cbd5e1;
+}
+
+.btn-excluir {
+  background-color: #ef4444;
+  padding: 6px 10px;
+}
+
+.btn-excluir:hover {
+  background-color: #dc2626;
+}

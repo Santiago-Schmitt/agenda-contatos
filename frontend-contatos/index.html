@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo de Contatos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧑 Catálogo de Contatos</h1>
+ 
+  <section class="filtros">
+    <h2>Filtrar Contatos</h2>
+    <input type="text" id="filtro-nome" placeholder="Buscar por nome...">
+    <input type="text" id="filtro-cidade" placeholder="Buscar por cidade...">
+    <button id="btn-filtrar">Buscar</button>
+    <button id="btn-limpar-filtro">Limpar</button>
+  </section>
+ 
+  <section class="formulario">
+    <h2 id="titulo-form">Cadastrar Contato</h2>
+    <form id="form-contato">
+      <input type="hidden" id="contato-id">
+      <input type="text" id="nome" placeholder="Nome" required>
+      <input type="tel" id="telefone" placeholder="Telefone" required>
+      <input type="email" id="email" placeholder="E-mail (opcional)">
+      <input type="text" id="cidade" placeholder="Cidade" required>
+      <button type="submit">Salvar</button>
+      <button type="button" id="btn-cancelar">Cancelar</button>
+    </form>
+  </section>
+ 
+  <section class="lista">
+    <h2>Contatos cadastrados</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Telefone</th>
+          <th>E-mail</th>
+          <th>Cidade</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="lista-contatos-body"></tbody>
+    </table>
+  </section>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
